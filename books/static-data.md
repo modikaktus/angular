@@ -382,5 +382,8 @@ Untuk menampilkan data yang tersimpan di variabel array, buka `index.html` dan l
 </div>
 ```
 
+Script yang ada di sini bisa didownload dari [GitHub][3].
+
 [1]: https://nodejs.org/en/download/
 [2]: https://angular-ui.github.io/bootstrap/
+[3]: https://github.com/modikaktus/angular/tree/master/scripts/static-data/public
