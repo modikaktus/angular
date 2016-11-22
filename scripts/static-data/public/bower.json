@@ -1,0 +1,15 @@
+{
+    "name": "project",
+    "version": "0.1",
+    "main": "index.html",
+    "ignore": [
+        "**/.*",
+        "libs"
+    ],
+    "dependencies": {
+        "angular": "latest",
+        "angular-bootstrap": "latest",
+        "angular-resource": "latest",
+        "bootstrap": "latest"
+    }
+}
