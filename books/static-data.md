@@ -1,4 +1,4 @@
-# 1. Pendahuluan
+# 1. Persiapan
 
 Di sini diasumsikan kita menggunakan virtual host dengan document root berada di folder `/var/www/project/public` dan diakses melalui `http://public`.
 
@@ -126,8 +126,6 @@ Berikut adalah struktur project yang akan dibuat.
   |     |
   |     +-- services/
   |
-  +-- views/
-  |
   +-- resources/
 ```
 
@@ -135,7 +133,7 @@ Untuk membuat struktur folder di atas, buka terminal dan jalankan perintah berik
 
 ```
 $ cd /var/www/project/public
-$ mkdir -p ./{scripts/{controllers,services},views,resources}
+$ mkdir -p ./{scripts/{controllers,services},resources}
 ```
 
 # 2. Mengakses Static Data
@@ -203,7 +201,7 @@ Menggunakan pola di atas, kita mulai dengan file `scripts/app.js`.
 })();
 ```
 
-Tidak ada yang aneh di sini, kita hanya mebuat sebuah module utama bernama `myApp` dengan dependency `ngResource` dan `ui.bootstrap`.
+Tidak ada yang aneh di sini, kita hanya membuat sebuah module utama bernama `myApp` dengan dependency `ngResource` dan `ui.bootstrap`.
 
 Lanjutkan dengan membuat controller.
 
@@ -386,4 +384,4 @@ Script yang ada di sini bisa didownload dari [GitHub][3].
 
 [1]: https://nodejs.org/en/download/
 [2]: https://angular-ui.github.io/bootstrap/
-[3]: https://github.com/modikaktus/angular/tree/master/scripts/static-data/public
+[3]: https://github.com/modikaktus/angular
